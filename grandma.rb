@@ -3,9 +3,9 @@ def speak_to_grandma (phrase)
     return "I LOVE YOU TOO PUMPKIN!"
 end
 
- if phrase == phrase.upcase
+ if phrase != phrase.upcase
   return "HUH?! SPEAK UP, SONNY!"
-else speak_to_grandma == .upcase
+else speak_to_grandma = .upcase
   puts "NO, NOT SINCE 1938!"
   end
     
